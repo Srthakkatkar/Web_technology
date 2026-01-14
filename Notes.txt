@@ -1,0 +1,66 @@
+#Day1 -13 Jan
+
+Frontend                            Backend
+                                       
+HTML   CSS                              
+   basic                         .net     express
+     |
+     V   
+ node JS
+     |
+     V
+    DOM --------> API <------ Mango 
+     |
+     V
+ React/Angular 
+ 
+ //what is JS and node JS ?
+ 
+
+-->JavaScript vs Node.js (Side-by-Side)
+Feature	                JavaScript (JS)	                  Node.js
+What it is	        Programming language	          JavaScript runtime environment
+Runs on	Browser         (Chrome, Firefox, Edge)           Server / Computer
+Purpose	                Make web pages interactive	  Build backend & servers
+Environment	        Frontend	                  Backend
+Can access files	❌ No                            ✅ Yes
+Can connect database	❌ No	                          ✅ Yes
+Create server	        ❌ No	                          ✅ Yes
+Use case	        UI, form validation, DOM	  APIs, auth, business logic
+Uses JS syntax	        ✅ Yes	                          ✅ Yes
+Needs browser	        ✅ Yes	                          ❌ No
+Popular usage	        React, DOM, Events	          Express, APIs, Microservices
+
+
+//what is types of datatypes ?
+-->Primitive Data Types
+
+ Store single values
+ Immutable (cannot be changed)
+
+Data Type	     Description	           Example
+Number	          Numbers (int, float)	           let a = 10;
+String	           Text / characters	           let name = "Sarthak";
+Boolean	            True or false                  let isLogin = true;
+Undefined   Variable declared but no value         let x;
+
+->Non-Primitive (Reference) Data Types
+
+ Store multiple values
+ Mutable (can be changed)
+
+Data Type	     Description	  Example
+Object	           Key–value pairs	{ name: "A", age: 20 }
+Array	           List of values	[1, 2, 3]
+Function	    Block of code	function test(){}
+
+//what is diff btn let, const, var ?
+
+Difference between var, let, and const
+Feature	                var	             let	             const
+Scope	          Function scope         Block scope	          Block scope
+Re-declare	      ✅ Yes	            ❌ No	             ❌ No
+Re-assign	      ✅ Yes	            ✅ Yes	             ❌ No
+Hoisting	      ✅ Yes (undefined)    ✅ Yes (TDZ)	     ✅ Yes (TDZ)
+Initialize required   ❌ No	            ❌ No	             ✅ Yes
+Use in modern JS      ❌ Not recommended    ✅ Recommended          ✅ Recommended
