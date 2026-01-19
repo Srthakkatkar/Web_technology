@@ -1,0 +1,98 @@
+// Activity No 1
+// Block Scope
+
+// let
+try {
+  {
+    let a = 10;
+    document.write("let a = " + a + "<br>");
+  }
+  document.write(a + "<br>");
+} catch (e) {
+}
+
+document.write("<br>");
+
+// const
+try {
+  if (true) {
+    const b = 20;
+    document.write("const b = " + b + "<br>");
+  }
+  document.write(b + "<br>");
+} catch (e) {
+}
+
+document.write("<br>");
+
+// var
+if (true) {
+  var c = 30;
+}
+document.write("var c = " + c + "<br><br>");
+
+
+// Activity No 2
+// Declare Every Data Type
+
+// Number
+let num = 100;
+document.write("Number value: " + num + "<br>");
+
+// String
+let name = "Sarthak";
+document.write("String value: " + name + "<br>");
+
+// Boolean
+let isStudent = true;
+document.write("Boolean value: " + isStudent + "<br>");
+
+// Undefined
+let x;
+document.write("Undefined value: " + x + "<br>");
+
+// Null
+let y = null;
+document.write("Null value: " + y + "<br>");
+
+// BigInt
+let bigNum = 12345678901234567890n;
+document.write("BigInt value: " + bigNum + "<br>");
+
+// Symbol
+let id = Symbol("id");
+document.write("Symbol value created<br>");
+
+// Object
+let person = {
+  name: "Sarthak",
+  age: 20
+};
+document.write("Object value: Name = " + person.name + ", Age = " + person.age + "<br>");
+
+// Array
+let marks = [85, 90, 78];
+document.write("Array values: " + marks + "<br>");
+
+// Function
+function greet() {
+  return "Hello World";
+}
+document.write("Function output: " + greet() + "<br>");
+
+//Activity 5:check Student pass or fail
+const mark=70;
+if(mark>35){
+    document.write("Student Pass:<br>")
+    console.log("Student Pass:")
+}
+else{
+    document.write("Student is fail<br>")
+    console.log("Student is fail")
+}
+
+//Activity 6:print number using loop
+for(i=1;i<=10;i++){
+    document.write(i+"<br>")
+    console.log(i)
+}
