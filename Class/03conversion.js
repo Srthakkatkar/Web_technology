@@ -1,0 +1,79 @@
+
+//Activity 1: 
+//number to string
+let number = 33;
+console.log(typeof(number));
+let string = String(number);
+console.log(string); 
+console.log(typeof string); 
+
+// activity 1 do all convertions 
+
+
+//string to number
+let strs  = "123";
+let num = Number(strs);
+console.log(num);
+
+//boolean conversoins
+
+console.log(Boolean(1));        
+console.log(Boolean(0));        
+console.log(Boolean("hello"));  
+console.log(Boolean(""));       
+console.log(Boolean(null));     
+console.log(Boolean(undefined)); 
+
+// 4) Other Possible Conversions
+
+// String to Boolean
+let text = "JS";
+let bool1 = Boolean(text);
+console.log(bool1); // true
+
+// Boolean to Number
+let isLoggedIn = true;
+let numBool = Number(isLoggedIn);
+console.log(numBool); // 1
+
+// Number to Boolean
+let zeroValue = 0;
+console.log(Boolean(zeroValue)); // false
+
+// Null and Undefined conversions
+console.log(Number(null));      // 0
+console.log(Number(undefined)); // NaN
+
+
+
+
+
+
+//********** OPERATIONS *********//
+
+console.log(2+2);
+console.log(2-2);
+console.log(2/2);
+console.log(2*2);
+console.log(2%2); 
+
+let str = "Hello ";
+let str1= "World";
+console.log(str + str1); 
+
+console.log("1" + 2);
+console.log("1" + 2+2);
+console.log(1 +"2");
+console.log(1 + 2 + "2");
+
+// IMPORTANT NOTE := javascript only automatically convert string to number in Arithmatical operations
+
+console.log(true);
+console.log(+true);
+console.log(+"");
+
+let gamecounter = 100;
+gamecounter++;
+console.log(gamecounter);
+let scorecnt = 200;
+
