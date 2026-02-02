@@ -1,11 +1,11 @@
-let str = "Rushikesh";
+let str = "Sarthak";
 console.log(str);
 console.log(typeof str);
 
 //String interpolation
 console.log(`Hello, My name is ${str}`);
 
-const gameCount = new String("Rushikesh");
+const gameCount = new String("Sarthak");
 console.log(gameCount.length)
 
 console.log(gameCount.toUpperCase);
