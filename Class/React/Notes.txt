@@ -1,0 +1,44 @@
+//react creat a copy of real dom when data changes react a updates the only
+the part of real dom which is changed this process is called reconciliation
+what is diff betn react and angular
+npm install means install dependencies
+npm run dev means start server
+npm run build means create production build
+npm run start means start production server
+npm run test means run test cases
+npm run eject means eject from create react app and customize webpack config
+what is jsx
+jsx is a syntax extension for javascript it looks like html but it is not html it is javascript it is used to create react elements
+rules-
+1. jsx must have only one parent element
+2. use scope brackets
+
+components is heart of react
+Functional components - 
+  function Student(){
+    return <h1>Hello, world!</h1>
+  }
+
+  use comqponent in app.jsx
+  function App(){
+    return <><Student/></Student>
+  }
+
+props are used to pass data from parent component to child component
+props are read only
+props are immutable
+
+  function App(){
+    return <Student name = "Shubu"/>
+  }
+  function Student(props){
+    return <h1>Hello, {props.name}</h1>
+  }
+
+Activity-
+1.what is components types of comps and where we use components in react with 2 eg.
+2.what is props why we use props and types of props with 2 eg.
+
+
+*State: Data that can change over time. When state changes, the component re-renders to reflect the new state. 
+//why we use state?

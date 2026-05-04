@@ -1,0 +1,17 @@
+//what is ORM==ORM stands for Object-Relational Mapping.
+instad of writing SQL queries to interact with a database.
+
+//websocket-
+it allow us realtime communication between client and server.
+HTTP == is a request-response protocol.
+web socket == continus Connection
+eg. chat apps - wp 
+    online gaming
+    Notification
+
+cmd == npm install ws
+
+//Activities-
+-deep study of websocket
+-understand websocket with an eg. 
+
